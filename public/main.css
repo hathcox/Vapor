@@ -1,0 +1,116 @@
+#header {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-image:url('top.png');
+	background-size: 100%;
+	background-repeat:no-repeat;
+}
+body {
+	background-image:url('background.jpg');
+	background-size: 100%;
+}
+
+#chatTerminal {
+	position:relative;
+	left:50px;
+	top:100px;
+	width:518px;
+	height:328px;
+}
+
+#chatTerminal #banner {
+	background-image:url('terminal.png');
+	background-repeat:no-repeat;
+	height:54px;
+}
+
+#chatTerminal #content {
+	height:100%;
+	background-color:#34282C;
+	opacity:0.85;
+	filter:alpha(opacity=85);
+}
+
+#chatTerminal #leader {
+	color:white;
+	position:relative;
+	left:130px;
+}
+
+#chatTerminal #chatBanner {
+	color:white;
+	position:relative;
+	left:185px;
+}
+
+#chatTerminal #messages {
+	color:white;
+	position:relative;
+	top:10px;
+	left:10px;
+}
+
+#root {
+	position:relative;
+	left:5px;
+	float:left;
+	color:white;
+}
+#terminal {
+	position:relative;
+	left:600px;
+	top:-100px;
+	width:518px;
+	height:328px;
+}
+
+#terminal #banner {
+	background-image:url('terminal.png');
+	background-repeat:no-repeat;
+	background-size:100%;
+	height:54px;
+}
+
+#terminal #content {
+	height:100%;
+	background-color:#34282C;
+	opacity:0.85;
+	filter:alpha(opacity=85);
+}
+
+#terminal #screen {
+	position:relative;
+	top:-300px;
+	text-align: left;
+	font-size: 15px;
+	font-family: Courier New,Fixed;
+	line-height: 16px;
+	color: white;
+	width: 41em;
+	height: 212px;
+	display: block;
+	white-space: pre;
+}
+#gameInfo {
+	position:relative;
+	left:5px;
+	color:white;
+}
+
+input {
+	width:400px;
+	position:relative;
+	left:10px;
+	bottom:3px;
+	border-width:0px;
+	outline-width:0px;
+	background-color:#34282C;
+	color:white;
+}
+
+button {
+	visibility:hidden;
+}
